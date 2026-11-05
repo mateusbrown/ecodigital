@@ -30,5 +30,11 @@ module.exports = {
     scriptLoading: 'defer',
     inject: 'body',
     templateParameters: { title, description }
-  }))
+  })),
+  devServer: {
+    static: './dist',
+  },
+  optimization: {
+    runtimeChunk: 'single',
+  },
 };
