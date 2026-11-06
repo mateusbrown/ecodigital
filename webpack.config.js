@@ -7,7 +7,10 @@ const pages = [
   { name: 'vidro', title: 'Vidro | EcoDigital', description: 'Conheça o guia demonstrativo de reciclagem de vidro do EcoDigital.' },
   { name: 'metal', title: 'Metal | EcoDigital', description: 'Conheça o guia demonstrativo de reciclagem de metal do EcoDigital.' },
   { name: 'plastico', title: 'Plástico | EcoDigital', description: 'Conheça o guia demonstrativo de reciclagem de plástico do EcoDigital.' },
-  { name: 'dados', title: 'Dados da cidade | EcoDigital', description: 'Explore indicadores fictícios de reciclagem no dashboard EcoDigital.' }
+  { name: 'dados', title: 'Dados | EcoDigital', description: 'Explore indicadores de reciclagem no dashboard EcoDigital.' },
+  { name: 'descarte', title: 'Descarte | EcoDigital', description: 'Conheça o passo de descarte do clico de reciclagem.' },
+  { name: 'triagem', title: 'Triagem | EcoDigital', description: 'Conheça o passo da triagem do clico de reciclagem.' },
+  { name: 'novoproduto', title: 'Novo Produto | EcoDigital', description: 'Conheça o resultado do clico de reciclagem.' }
 ];
 
 module.exports = {
@@ -30,5 +33,11 @@ module.exports = {
     scriptLoading: 'defer',
     inject: 'body',
     templateParameters: { title, description }
-  }))
+  })),
+  devServer: {
+    static: './dist',
+  },
+  optimization: {
+    runtimeChunk: 'single',
+  },
 };

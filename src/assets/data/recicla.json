@@ -1,0 +1,32 @@
+[
+  {
+    "ano":2025,
+    "papel": 615.59,
+    "vidro": 363.99,
+    "metal": 75.05,
+    "aluminio": 105.20,
+    "plastico": 841.29,
+    "total": 2001.12,
+    "variacao": 18.56
+  },
+  {
+    "ano":2024,
+    "papel": 589.01,
+    "vidro": 329.22,
+    "metal": 88.36,
+    "aluminio": 23.90,
+    "plastico": 657.36,
+    "total": 1687.85,
+    "variacao": -4.87
+  },
+  {
+    "ano":2023,
+    "papel": 891.59,
+    "vidro": 266.03,
+    "metal": 124.87,
+    "aluminio": 16.02,
+    "plastico": 475.80,
+    "total": 1774.31,
+    "variacao": 36.01
+  }
+]

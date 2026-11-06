@@ -5,7 +5,8 @@
   "description": "Hotsite educativo de reciclagem com dados demonstrativos.",
   "scripts": {
     "build": "webpack --mode production",
-    "build:dev": "webpack --mode development"
+    "build:dev": "webpack --mode development",
+    "watch": "webpack --watch --mode development"
   },
   "dependencies": {
     "chart.js": "^4.4.8"
@@ -13,6 +14,7 @@
   "devDependencies": {
     "html-webpack-plugin": "^5.6.3",
     "webpack": "^5.98.0",
-    "webpack-cli": "^6.0.1"
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.7"
   }
 }
